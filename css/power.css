@@ -1,0 +1,497 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+    /* start grouping */
+h2, h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+h6{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff; 
+    font-size: 28px;
+    font-weight: 300;
+}
+.about h4, .event h4, .wolf h4 ,.li h4{
+    font-size: 22px;
+    font-weight: 700;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    text-align:center
+    
+}
+button{
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #46bae2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px
+    
+}
+ul{
+    list-style:none
+}
+    /* end grouping */
+
+
+    /*start container*/
+.container{
+     padding: 0 100px 0 100px
+}
+    /*end container*/
+
+
+    /*start header*/
+.header{
+    height: 90px;
+    background-color: #fff;
+    position: fixed;
+    top:30px;    /* or margin :30px */
+    right: 7%;
+    left: 7%;
+    border: none;
+    }
+.header span{
+    position :relative;
+    left: 3%;
+    top: 30%;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #46bae2;
+    transition: all 0.5s;
+    cursor: pointer
+    
+}
+.header .nav{
+   float: right;
+    
+    
+}
+.header li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0px 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    color: #999;
+    cursor:pointer
+}
+.dif{
+    
+}
+    /*end header*/
+
+    /*start banner*/
+
+.banner{
+    height: 500px;
+    text-align: center;
+    padding: 200px 300px 0 300px;   
+}
+    
+.banner h2{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.more{
+    background-color: #f2745f
+}
+    /*end banner*/
+
+
+
+    /*start intro */
+.intro{
+    background-color: #46bae2;
+    text-align: center;
+    padding: 80px 0;
+}
+.intro h4 {
+    font-size: 44px;
+    text-transform: capitalize;
+    
+}
+.intro h6 {
+    margin-top:  -50px;
+    
+}
+.intro button{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+    /*end intro */
+
+    /*start about */
+.about{
+    background-image:url(../img/services-bg.jpg);
+    text-align: center;
+    height: 455px
+
+}
+.about > div{
+    width: 33.3333%;
+    float: left;
+    padding:70px 0 77px 0;
+    padding-left: -3px;
+    height: 310px 
+}
+.about .div1{
+    background-color: rgba(242, 116, 95, 0.75);
+    text-align: center;
+    
+}
+.about .div2{
+    background-color: rgba(54, 62, 80, 0.75);
+    text-align: center;
+    
+}
+.about .div3{
+    background-color: rgba(70, 186, 226, 0.75);
+    text-align: center;
+
+}
+.about h4{
+    margin-top: 45px;
+    margin-bottom: 20px; 
+}
+
+    /*end about*/
+
+    /* start sec */
+.sec{
+    text-align: center;
+    padding: 30px 0 50px 0;
+    
+    
+}
+.container h4 {
+    color: #121212;
+    
+}
+.container p{
+    color: #7a7a7a;
+    padding: 0px 25%;
+    margin-top: -25px;
+}
+
+    /*end sec*/
+
+    /*the lists is the container now */
+
+    /* start row */
+.lists{
+    
+    padding: 20px 40px 20px 40px;
+    clear: both
+}
+.li{
+   display: inline-block;
+    background-color: #f4f4f4;
+    width: 15%;
+    padding: 40px 10px 40px 10px;
+    text-align: center;
+    margin: 10px 10px 10px 20px;
+}
+.li h4{
+    color: black;
+    font-size: 17px;
+}
+
+    /* end row */
+
+    /*start event */
+.event{
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px
+}
+.img{
+    float:left;
+    width: 45%;
+    margin-left: 40px
+}
+.event h4{
+    margin-bottom: 20px;
+    text-align: left;
+    color: black
+}
+.event p{
+    color: #7a7a7a;
+    text-align: left
+}
+    /*end event */
+
+    /*start col */
+
+.col{
+    padding-top: 30px;
+    clear: both;
+    background-color:#363e50;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.col h4{
+    color: #fff
+}
+.col p{
+    color: #aaa
+}
+.col img{
+    padding: 10px
+}
+.portfoloi{
+    padding-top: 40px;  
+}
+.col ul{
+    list-style: circle;
+    text-align: center;
+}
+.col ul li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius:20px;
+    margin: 4px;
+    background-color:#676766
+    
+}
+.col ul li.active{
+   background-color: #46bae2
+    
+}
+    /*end col */
+
+    /*start blog*/
+.blog {
+    background-color:#f4f4f4;
+    padding:20px 0 80px 0;
+    height: 900px;
+    
+    
+    
+}
+.blog h4{
+    color: #121212;
+    margin-bottom: 30px;
+    
+}
+.blog p{
+    color: #7a7a7a;
+    
+}
+
+.hard .tabs{
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+    background-color: #f4f4f4
+    
+}
+.blog .tabs a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 24px 10px 25px 25px;
+    background-color: #fff;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px #cdcdcd;
+    width: 90%;
+    margin: 30px;
+
+    
+}
+.info-post li{
+    display: inline-block;
+    padding-top: 10px;
+    color: #343434;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-right: 15px;
+    
+}
+.info-post li i{
+    color: #46bae2;
+    margin-right: 5px;
+}
+.hard .img{
+    
+    width: 40%;
+    margin-top: 80px
+}
+.img .wolf {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #cdcdcd;
+    padding:20px 0 50px 0;
+    
+}
+.wolf h4{
+    text-align: left;
+    color: #121212;
+    margin: 20px;
+    
+}   
+.wolf p {
+    margin-top: 17px;
+    color: #7a7a7a;
+    margin: 0 30px 10px 30px;
+    text-align: left 
+}
+.wolf button{
+    margin-left: 20px
+}
+
+    /*end blog*/
+
+    /*start contact*/
+.con,;{
+    
+    padding-bottom: 50px
+}
+.form{
+    width: 50%;
+    float: left;
+    padding-bottom: 100px;
+    
+}
+.form input{
+    margin: 30px 30px 20px 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 15px 50px 15px 10px;
+    border: none
+}
+.form textarea{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin:20px 0 0 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    height: 165px;
+    max-height: 220px;
+    margin-bottom: 25px;
+    
+}
+.form button{
+    margin-left: 20px
+}
+.map{
+    width: 45%;
+    float: right;
+    
+}
+
+
+
+    /* end contact */
+
+    /*start footer */
+.footer{
+    background-color: #363e50;
+    clear: both;
+    text-align: center;
+    
+}
+.footer .left {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: -250px;
+    padding: 75px 200px 75px 0;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    text-align: left
+}
+.footer p{
+    font-size: 14px;
+    text-align: left;
+        
+}
+.footer .links{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    
+}
+.footer a{
+    color: #a3afc9;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    transition: all 0.5s;
+    padding: 5px
+    
+    
+}
+.footer .back {
+    width: 10%;
+    float: right;
+    margin-right: 100px;
+    text-align: center;
+    background-color: #46bae2;
+    display: inline-block;
+    padding: 105px 0px 70px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px
+    
+    
+}
+.back a i{
+   
+    font-size: 30px;
+}
+.footer .back a {
+    color: #fff;
+}
+
+
+    /* end footer */
+
